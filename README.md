@@ -303,16 +303,6 @@ results_df.to_csv('predictions.csv', index=False)
 4. **Time Unit**: Ensure time unit is months, consistent with training data
 5. **Model File**: Need to provide trained model file (.pkl format)
 
-## 🔬 Model Performance
-
-Performance on the original dataset:
-
-- **C-index**: 0.72-0.78
-- **ROC AUC (36 months)**: 0.68-0.75
-- **ROC AUC (48 months)**: 0.70-0.78
-- **ROC AUC (60 months)**: 0.65-0.72
-
-*Note: Actual performance may vary depending on the dataset*
 
 ## 📝 Citation
 
@@ -342,3 +332,4 @@ For questions or suggestions, please contact via GitHub Issues.
 ---
 
 **Note**: This model is for research purposes only and should not be used for clinical diagnosis or treatment decisions.
+
