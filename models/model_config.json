@@ -1,0 +1,17 @@
+{
+  "model_type": "DeepHit",
+  "best_params": {
+    "alpha": 0.25,
+    "batch_size": 32,
+    "dropout": 0.4,
+    "epochs": 150,
+    "hidden_layers": [256],
+    "learning_rate": 0.0001,
+    "num_durations": 30,
+    "sigma": 0.1
+  },
+  "durations": [0.0, 2.7954023, 5.5908046, 8.3862069, 11.1816092, 13.97701149, 16.77241379, 19.56781609, 22.36321839, 25.15862069, 27.95402299, 30.74942529, 33.54482759, 36.34022989, 39.13563219, 41.93103448, 44.72643678, 47.52183908, 50.31724138, 53.11264368, 55.90804598, 58.70344828, 61.49885058, 64.29425288, 67.08965518, 69.88505747, 72.68045977, 75.47586207, 78.27126437, 81.06666667],
+  "out_features": 30,
+  "description": "DeepHit survival model for COPD prognosis prediction. Best model parameters from hyperparameter search."
+}
+
